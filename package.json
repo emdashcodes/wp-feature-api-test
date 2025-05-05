@@ -1,0 +1,20 @@
+{
+  "name": "wp-feature-api-test",
+  "version": "0.1.0",
+  "description": "A test plugin for @automattic/wp-feature-api",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "format:js": "wp-scripts format"
+  },
+  "author": "",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@automattic/wp-feature-api": "^0.1.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.9.0"
+  }
+}
