@@ -11,10 +11,10 @@ This WordPress plugin serves as a simple example of how to register and interact
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url> wp-feature-api-test
+    git clone https://github.com/emdashcodes/wp-feature-api-test.git wp-feature-api-test
     ```
 
-    Replace `<repository-url>` with the actual URL of this repository. Place the cloned directory inside your WordPress installation's `wp-content/plugins/` directory.
+    Place the cloned directory inside your WordPress installation's `wp-content/plugins/` directory.
 
 2. **Navigate to the plugin directory:**
 
