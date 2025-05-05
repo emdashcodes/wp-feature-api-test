@@ -6,12 +6,6 @@ A small test plugin to demonstrate client-side usage of the `@automattic/wp-feat
 
 This WordPress plugin serves as a simple example of how to register and interact with features using the `@automattic/wp-feature-api` library within the WordPress admin area (client-side).
 
-## Prerequisites
-
-* WordPress version 6.0 or higher
-* PHP version 7.4 or higher
-* Node.js and npm installed for development/building
-
 ## Installation
 
 1. **Clone the repository:**
