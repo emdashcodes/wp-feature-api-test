@@ -10,6 +10,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wp-feature-api-test
  * Domain Path:       /languages
+ * Requires Plugins:  wp-feature-api
  */
 
 
@@ -26,12 +27,7 @@ function wp_feature_api_test_enqueue_scripts() {
 	wp_enqueue_script(
 		'wp-feature-api-test-script',
 		plugin_dir_url( __FILE__ ) . 'build/index.js',
-		[
-			'wp-data',
-			'wp-core-data',
-			'wp-api-fetch',
-			'wp-plugins'
-		],
+		array_merge( $asset_file['dependencies'], array( 'wp-features' ) ),
 		$asset_file['version'],
 		true
 	);
